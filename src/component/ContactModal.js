@@ -120,7 +120,6 @@ function ContactModal({ details, setDetails }) {
         setData({ email: [''], number: [''], isEdit: false })
     }
 
-    // edit details of contact
     const editMode = (id) => {
         setDetails((d) => {
             let cloneDetails = [...d]
@@ -128,7 +127,8 @@ function ContactModal({ details, setDetails }) {
             return cloneDetails
         })
     }
-
+    
+    // edit details of contact
     const handleChange = (e) => {
         const { value, name, id } = e.target
         setDetails((d) => {
