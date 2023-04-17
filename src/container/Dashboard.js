@@ -53,10 +53,10 @@ export const Dashboard = () => {
                     </div>
 
 
-                    <div className="col-12 d-flex justify-content-between">
+                    <div className="col-lg-12 col-md-12 d-flex justify-content-between">
 
                         {/* Contact Box */}
-                        <div className="col-lg-3 col-md-3 mt-3 info-box ps-3 pe-1" ><br />
+                        <div className="col-lg-4 col-md-4 mt-3 info-box ps-3 pe-1" ><br />
                             <div className="d-flex justify-content-between">
                                 <span><i className="fas fa-address-book fa-fw me-1 fa-2x" aria-hidden="true"></i>
                                     <span style={{ fontSize: 20, fontWeight: 400 }}>Contact</span></span>
@@ -79,7 +79,7 @@ export const Dashboard = () => {
                         </div>
 
                         {/* Address Box */}
-                        <div className="col-lg-3 col-md-3 mt-3 info-box ps-3 pe-1" ><br />
+                        <div className="col-lg-4 col-md-4 mt-3 info-box ps-3 pe-1" ><br />
                             <div className=" d-flex justify-content-between">
                                 <span><i className="fas fa-map-marker fa-fw me-1 fa-2x" aria-hidden="true"></i>
                                     <span style={{ fontSize: 20, fontWeight: 400 }}>Address</span></span>
@@ -89,7 +89,7 @@ export const Dashboard = () => {
                             <span>vadodra-363641,Gujarat,India.</span>
                         </div>
                         {/* House Operation box */}
-                        <div className="col-lg-3 col-md-3 mt-3 info-box ps-3 pe-1" ><br />
+                        <div className="col-lg-4 col-md-4 mt-3 info-box ps-3 pe-1" ><br />
                             <div className=" d-flex justify-content-between">
                                 <span><i className="fas fa-home fa-fw me-1 fa-2x" aria-hidden="true"></i>
                                     <span style={{ fontSize: 20, fontWeight: 400 }}>House Operation</span></span>
@@ -99,10 +99,10 @@ export const Dashboard = () => {
                         </div>
                     </div>
 
-                    <div className="col-7 d-flex mb-5">
+                    <div className="col-lg-12 col-md-12 d-flex mb-5">
                         {/* Social Media link Box */}
 
-                        <div className="col-lg-3 col-md-3 mt-3 info-box me-3 ps-3 pe-1"><br />
+                        <div className="col-lg-4 col-md-4 mt-3 info-box me-3 ps-3 pe-1"><br />
                             <div className="d-flex justify-content-between">
                                 <span><i className="fas fa-link fa-fw me-1 fa-2x" aria-hidden="true"></i>
                                     <span style={{ fontSize: 20, fontWeight: 400 }}>Social Media & Links</span></span>
@@ -125,7 +125,7 @@ export const Dashboard = () => {
                             </div>
                         </div>
                         {/* statement Box */}
-                        <div className="col-lg-3 col-md-3 mt-3 info-box ps-3 pe-1"  > <br />
+                        <div className="col-lg-4 col-md-4 mt-3 info-box ps-3 pe-1"  > <br />
                             <div className="d-flex justify-content-between">
                                 <span><i className="fas fa-quote-left fa-fw me-1 fa-2x" aria-hidden="true"></i>
                                     <span style={{ fontSize: 20, fontWeight: 400 }}>Statement</span></span>
