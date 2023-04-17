@@ -6,6 +6,17 @@
     }
 }
 
+:root {
+    --red: red;
+    --grey:#b4b1b1;
+    --white: #ffffff;
+    --pink:pink;
+    --lightBrown:#ffc0ee63;
+    --sky:#78909C;
+    --black:black;
+  }
+  
+
 iframe {
     /* display: none ; */
     top: unset !important;
@@ -21,30 +32,30 @@ iframe {
 }
 
 .list-group-item.active {
-    background-color: #ffc0ee63;
+    background-color: var(--lightBrown); ;
 }
 
 .list-group-item-action span {
-    color: #b4b1b1;
+    color:var(--grey);
     font-size: 15px;
 }
 
 .fas {
-    color: #b4b1b1;
+    color:var(--grey);
 }
 
 .nav-link {
-    color: rgba(0, 0, 0, 0.705);
+    color: var(--black); ;
 }
 
 .digital-link {
-    color: #b4b1b1;
+    color:var(--grey);
     font-weight: 400;
 }
 
 .need-help,
 .info-box {
-    border: 1px solid #b4b1b1;
+    border: 1px solid var(--grey);
     border-radius: 10px;
 }
 
@@ -69,7 +80,7 @@ li {
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-    border-color: #fff #fff red #fff;
+    border-color:var(--white) var(--white) var(--red) var(--white);
     font-weight: 700;
 }
 
@@ -78,7 +89,7 @@ li {
     justify-content: center;
     width: 30px;
     height: 30px;
-    background-color: pink;
+    background-color:var(--pink);
     border-radius: 20px;
 }
 
@@ -141,12 +152,12 @@ li {
 
 .modal-header {
     border-bottom-color: #EEEEEE;
-    background-color: #FAFAFA;
+    background-color: var(--white);
 }
 
 /* ----- v CAN BE DELETED v ----- */
 body {
-    background-color: #78909C;
+    background-color: var(--sky);
 }
 
 .demo {
@@ -159,7 +170,7 @@ body {
     padding: 10px 15px;
     border-radius: 0;
     font-size: 16px;
-    background-color: #FFFFFF;
+    background-color:var(--white);
 }
 
 .btn-demo:focus {
@@ -179,7 +190,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-    color: #fff;
+    color:var(--white);
 }
 
 .add-contact-email {
@@ -188,14 +199,14 @@ body {
 }
 
 .cutom-button {
-    background-color: pink;
-    color: red;
+    background-color: var(--pink);
+    color: var(--red);
     width: '100% !important';
     cursor: pointer;
 }
 
 .cutom-button:hover {
-    color: red;
+    color: var(--red);
 }
 
 .add-contact-form {
@@ -204,7 +215,7 @@ body {
 
 .at-links,
 .nav-at-links {
-    color: black !important;
+    color:var(--black) !important;
     font-weight: bold;
 }
 
@@ -213,19 +224,19 @@ body {
 }
 
 .powerby {
-    color: #b4b1b1;
+    color: var(--grey);
     font-size: 14px;
 }
 
 .el {
     font-size: 6px;
-    color: red;
+    color: var(--red);
 }
 
 #red {
     font-size: 18px;
     font-weight: bolder;
-    color: red;
+    color: var(--red);
 }
 
 @media screen and (max-width: 3840px) {
