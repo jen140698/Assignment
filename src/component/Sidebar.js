@@ -1,4 +1,5 @@
 import React from 'react';
+import NeedHelp from './NeedHelp'
 
 function Sliderbar() {
 
@@ -71,8 +72,8 @@ function Sliderbar() {
               href="#"
               className="list-group-item list-group-item-action py-2 ripple active"
             >
-              <i  style={{color:'red'}} className="fas fa-address-card fa-fw me-3" />
-              <span  style={{color:'red'}}>About Us</span>
+              <i style={{ color: 'red' }} className="fas fa-address-card fa-fw me-3" />
+              <span style={{ color: 'red' }}>About Us</span>
             </a>
             <a
               href="#"
@@ -83,13 +84,8 @@ function Sliderbar() {
             </a>
 
           </div>
-          <div class="col mx-3 mt-5 need-help" ><br/>
-            <i class="fas fa-question-circle fa-fw me-3 fa-2x" aria-hidden="true"></i><br/>
-            <span>Neep Help?</span><br/><br/>
-            <span>our support team is <br/> your disposal.</span><br/><br/>
-            <button type="button" className="btn btn-dark mb-3">Get Help</button><br/>
+          <NeedHelp />
 
-          </div>
         </div>
       </nav>
 
