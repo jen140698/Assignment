@@ -6,8 +6,7 @@ function Navbar() {
         <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light bg-white">
                 <div className="container-fluid">
-                    <div className="col-3">
-
+                    <div className="col-3 d-flex flex-column">
                         <a className="navbar-brand ms-5" href="#">
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
@@ -15,13 +14,15 @@ function Navbar() {
                                 alt="MDB Logo"
                                 loading="lazy"
                             />
-                        </a>
+                            <span className="nav-at-links ms-2">A.T. Inks</span><br />
+                            <span className="powerby" >Powered by <span className="el">el</span><span id="red">RED</span></span>
 
+                        </a>
                     </div>
                     <div className="col-9">
 
                         <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarText">
-                            <div style={{width:'50%'}}>
+                            <div style={{ width: '50%' }}>
                                 <input
                                     className="form-control me-2 bg-light"
                                     type="search"

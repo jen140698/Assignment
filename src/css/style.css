@@ -202,10 +202,35 @@ body {
     padding: .75rem;
 }
 
+.at-links,
+.nav-at-links {
+    color: black !important;
+    font-weight: bold;
+}
+
+.nav-at-links {
+    font-size: 10px;
+}
+
+.powerby {
+    color: #b4b1b1;
+    font-size: 14px;
+}
+
+.el {
+    font-size: 6px;
+    color: red;
+}
+
+#red {
+    font-size: 18px;
+    font-weight: bolder;
+    color: red;
+}
+
 @media screen and (max-width: 3840px) {
     .modal-dialog {
         margin-right: 0 !important;
         margin-top: 0 !important;
     }
 }
-

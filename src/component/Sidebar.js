@@ -5,9 +5,6 @@ function Sliderbar() {
 
   return (
     <React.Fragment>
-
-
-
       <nav
         id="sidebarMenu"
         className="collapse d-lg-block sidebar collapse bg-white mx-4"
@@ -25,7 +22,10 @@ function Sliderbar() {
                 alt="MDB Logo"
                 loading="lazy"
               />
+              <span className="at-links ms-2">A.T. Inks</span>
+
             </a>
+
             <a
               href="#"
               className="list-group-item list-group-item-action py-2 ripple "
